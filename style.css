@@ -1,0 +1,125 @@
+body{
+    
+    margin: 0;
+}    
+
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    font-size: 1.5rem;
+}
+
+fieldset {
+    border: 0;
+}
+
+h3{
+    margin-top: 0;
+
+}
+
+.wrapper {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}    
+
+.logo-container {
+    background-image: url('background-image.avif');
+    width: 40vw;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}    
+
+.odin-logo {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 20vh;
+    width: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: 15%;
+}    
+
+.image {
+    background-image: url('odin-logo.png');
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    margin: 5%;
+    margin-right: 35%;
+    
+}    
+
+.image::after{
+    content: 'ODIN';
+    font-size: 500%;
+    color: white;
+    position: absolute;
+    left: 60%;
+    top: 15%;
+}    
+
+.main-container{
+    background-color: white;
+    width: 60vw;
+    height: 100vh;
+    overflow: hidden;
+}    
+
+.description {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    align-content: center;
+    padding: 5%;
+    overflow: hidden;
+}    
+
+.form-inputs {
+    padding: 5%;
+    height: 25vh;
+    background-color: white;
+    filter: drop-shadow(1px 5px 5px rgb(77, 77, 77));
+    
+}    
+
+
+.create-account{
+    background-color: white;
+    height: 30vh;
+    overflow: hidden;
+}    
+
+.first-row > *, .second-row>*, .third-row>*{
+    padding-left: 0;
+    display: inline-block;
+    
+}
+
+input[type='submit'] {
+    background-color: #596D48;
+    width: 20vw;
+    padding: 1em;
+    border-radius: 15px;
+    color: white;
+    position: absolute;
+    top: 120%;
+}
+
+.create-account > p {
+    margin-top: 10%;
+    top: auto;
+    padding: 5%;
+}
+
+a:link{
+    text-decoration: none;
+    color: #596D48;;
+}
